@@ -1,1 +1,43 @@
-Hola mundo! 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi primera página</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    p {
+      color: #555;
+    }
+    button {
+      padding: 10px 20px;
+      background: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <h1>¡Hola, mundo!</h1>
+  <p>Esta es mi primera página web con HTML.</p>
+  <button onclick="saludar()">Haz clic aquí</button>
+
+  <script>
+    function saludar() {
+      alert("¡Hola! Estás probando tu primera página con HTML, CSS y JS 😀");
+    }
+  </script>
+</body>
+</html>
